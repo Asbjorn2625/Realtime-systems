@@ -86,7 +86,7 @@ void setup() {
 
     // Generate random numbers and convert them to low-precision format
     for (int i = 0; i < 100; i++) {
-        da[i] = random(-5, 5);
+        da[i] = random(-5, 5)/10.0+random(-5, 5);
         mda[i] = double_to_myfloat(da[i]);
     }
 
