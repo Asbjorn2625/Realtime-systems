@@ -183,6 +183,7 @@ void loop() {
 }
 */
 
+////////////// PRINT WITH SEMAPHORES ///////////////////
 // This does not work perfectly as they use too much time to run every 30ms
 #include <krnl.h>
 
